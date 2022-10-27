@@ -1,5 +1,5 @@
 import pytest
-from candy_problem.main import * 
+from candy_problem.candy_problem import * 
 
 
 def test_create_candy_data_structure_type():
@@ -16,8 +16,8 @@ def test_create_candy_data_structure_type():
     
     # Assert
     assert type(new_candy_data) == dict
-    
 
+# Add your own assertions to the test below
 def test_create_candy_data_structure_values():
 
     # Arrange
@@ -32,4 +32,14 @@ def test_create_candy_data_structure_values():
     new_candy_data = create_new_candy_data_structure(friend_favorites)
     
     # Assert
-    
+    assert len(new_candy_data) == 8
+    '''
+    Add your assertions here!
+    '''
+
+'''
+5. 
+Starting with nominal cases, write tests for each of the functions 
+in the file tests/test_candy_data_structure.py then write tests to 
+handle edge cases.
+'''
