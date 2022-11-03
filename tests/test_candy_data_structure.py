@@ -5,7 +5,7 @@ from candy_problem.candy_problem import *
 def test_create_candy_data_structure_type():
     # Arrange
     friend_favorites = [
-        ["Sally", [ "lollipop”, “bubble gum", "laffy taffy"]],
+        ["Sally", [ "lollipop", "bubble gum", "laffy taffy"]],
         [ "Bob", ["milky way", "licorice", "lollipop"]],
         [ "Arlene", ["chocolate bar", "milky way", "laffy taffy"]],
         [ "Carlie", ["nerds", "sour patch kids", "laffy taffy"]]
@@ -22,7 +22,7 @@ def test_create_candy_data_structure_values():
 
     # Arrange
     friend_favorites = [
-        ["Sally", [ "lollipop”, “bubble gum", "laffy taffy"]],
+        ["Sally", [ "lollipop", "bubble gum", "laffy taffy"]],
         [ "Bob", ["milky way", "licorice", "lollipop"]],
         [ "Arlene", ["chocolate bar", "milky way", "laffy taffy"]],
         [ "Carlie", ["nerds", "sour patch kids", "laffy taffy"]]
